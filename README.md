@@ -11,3 +11,10 @@ Some options:
 * [Jekyll](https://jekyllrb.com/) powerful static site generator, can be extended with Ruby plugins
 * [mkdocs](http://www.mkdocs.org/) mainly .md →  .html, rather for plain documentation pages
 
+## Jekyll
+
+The example page can be built in a `ruby` docker image. Run it with
+
+    bundle exec jekyll serve -H 0.0.0.0
+
+after exposing port 4000.
